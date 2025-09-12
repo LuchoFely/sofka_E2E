@@ -17,7 +17,7 @@ Este proyecto tiene como objetivo automatizar pruebas funcionales para la aplica
 ## 🚀 Cómo ejecutar las pruebas
 
 
-Abre el proyecto en Katalon Studio.
+Abre el proyecto sokka_E2E en Katalon Studio.
 
 
 Ejecuta los casos de prueba desde el panel de Test Suites o directamente desde los Test Cases.
