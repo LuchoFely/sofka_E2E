@@ -1,0 +1,11 @@
+1. La ejecución de la prueba E2E se realizó en Katalon studio
+2. Se pudo haber realizado en varias herramientas que se encuentran actualmente como Serenity BDD, robot Framework, Playwright 
+3. Se optó por Katalon ya que es práctico y tiene una interfaz visual para obtener los selectores
+4. Las pruebas automatizadas ayudan mucho para la simulan del comportamiento de un usuario real para verificar que todo el sistema funciona correctamente desde el inicio hasta el fin del flujo.
+5. Entre las ventajas de utilizar una herramienta de automatización son:
+Capturar automáticamente los elementos (locators)
+Automatizar flujos completos de usuario
+Detectar errores antes de que lleguen a producción
+Reducir el trabajo manual de QA
+Generar scripts reutilizables
+Integrarse con CI/CD

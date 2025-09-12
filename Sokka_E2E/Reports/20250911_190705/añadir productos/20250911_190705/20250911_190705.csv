@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+añadir productos,Chrome 139.0.7258.155,,,11-09-2025 19:07:10,11-09-2025 19:07:36,"25,434s",PASSED
+,,,,,,,
+Test Cases/prueba_1/añadir productos,Chrome 139.0.7258.155,,,11-09-2025 19:07:11,11-09-2025 19:07:36,"24,426s",PASSED
+"openBrowser("""")",Chrome 139.0.7258.155,,,11-09-2025 19:07:12,11-09-2025 19:07:15,"3,469s",PASSED
+"navigateToUrl(""https://www.demoblaze.com/"")",Chrome 139.0.7258.155,,,11-09-2025 19:07:15,11-09-2025 19:07:16,"0,958s",PASSED
+maximizeWindow(),Chrome 139.0.7258.155,,,11-09-2025 19:07:16,11-09-2025 19:07:17,"0,125s",PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_STORE/a_CATEGORIES_hrefch""), 10)",Chrome 139.0.7258.155,,,11-09-2025 19:07:17,11-09-2025 19:07:18,"1,250s",PASSED
+"click(findTestObject(""Object Repository/Page_STORE/a_CATEGORIES_hrefch""))",Chrome 139.0.7258.155,,,11-09-2025 19:07:18,11-09-2025 19:07:19,"0,780s",PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_STORE/a_Product description_btn btn-success btn-lg""), 10)",Chrome 139.0.7258.155,,,11-09-2025 19:07:19,11-09-2025 19:07:19,"0,763s",PASSED
+"click(findTestObject(""Object Repository/Page_STORE/a_Product description_btn btn-success btn-lg""))",Chrome 139.0.7258.155,,,11-09-2025 19:07:19,11-09-2025 19:07:20,"0,365s",PASSED
+waitForAlert(10),Chrome 139.0.7258.155,,,11-09-2025 19:07:20,11-09-2025 19:07:20,"0,569s",PASSED
+acceptAlert(),Chrome 139.0.7258.155,,,11-09-2025 19:07:20,11-09-2025 19:07:20,"0,041s",PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_STORE/a_Close_nava""), 10)",Chrome 139.0.7258.155,,,11-09-2025 19:07:20,11-09-2025 19:07:21,"0,291s",PASSED
+"click(findTestObject(""Object Repository/Page_STORE/a_Close_nava""))",Chrome 139.0.7258.155,,,11-09-2025 19:07:21,11-09-2025 19:07:21,"0,628s",PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_STORE/a_360_hrefch""), 10)",Chrome 139.0.7258.155,,,11-09-2025 19:07:21,11-09-2025 19:07:22,"0,848s",PASSED
+"click(findTestObject(""Object Repository/Page_STORE/a_360_hrefch""))",Chrome 139.0.7258.155,,,11-09-2025 19:07:22,11-09-2025 19:07:23,"0,603s",PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_STORE/a_Product description_btn btn-success btn-lg_1""), 10)",Chrome 139.0.7258.155,,,11-09-2025 19:07:23,11-09-2025 19:07:23,"0,705s",PASSED
+"click(findTestObject(""Object Repository/Page_STORE/a_Product description_btn btn-success btn-lg_1""))",Chrome 139.0.7258.155,,,11-09-2025 19:07:23,11-09-2025 19:07:24,"0,364s",PASSED
+waitForAlert(10),Chrome 139.0.7258.155,,,11-09-2025 19:07:24,11-09-2025 19:07:24,"0,517s",PASSED
+acceptAlert(),Chrome 139.0.7258.155,,,11-09-2025 19:07:24,11-09-2025 19:07:24,"0,018s",PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_STORE/a_Close_nava""), 10)",Chrome 139.0.7258.155,,,11-09-2025 19:07:24,11-09-2025 19:07:25,"0,273s",PASSED
+"click(findTestObject(""Object Repository/Page_STORE/a_Close_nava""))",Chrome 139.0.7258.155,,,11-09-2025 19:07:25,11-09-2025 19:07:25,"0,399s",PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_STORE/a_(current)_cartur""), 10)",Chrome 139.0.7258.155,,,11-09-2025 19:07:25,11-09-2025 19:07:26,"0,728s",PASSED
+"click(findTestObject(""Object Repository/Page_STORE/a_(current)_cartur""))",Chrome 139.0.7258.155,,,11-09-2025 19:07:26,11-09-2025 19:07:26,"0,637s",PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_STORE/button_Total_btn btn-success""), 10)",Chrome 139.0.7258.155,,,11-09-2025 19:07:26,11-09-2025 19:07:28,"1,241s",PASSED
+"click(findTestObject(""Object Repository/Page_STORE/button_Total_btn btn-success""))",Chrome 139.0.7258.155,,,11-09-2025 19:07:28,11-09-2025 19:07:28,"0,324s",PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_STORE/input_Name_name""), 10)",Chrome 139.0.7258.155,,,11-09-2025 19:07:28,11-09-2025 19:07:28,"0,525s",PASSED
+"setText(findTestObject(""Object Repository/Page_STORE/input_Name_name""), ""Luis Torres"")",Chrome 139.0.7258.155,,,11-09-2025 19:07:28,11-09-2025 19:07:29,"0,629s",PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_STORE/input_Country_country""), 10)",Chrome 139.0.7258.155,,,11-09-2025 19:07:29,11-09-2025 19:07:29,"0,240s",PASSED
+"setText(findTestObject(""Object Repository/Page_STORE/input_Country_country""), ""Ecuador"")",Chrome 139.0.7258.155,,,11-09-2025 19:07:29,11-09-2025 19:07:30,"0,577s",PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_STORE/input_City_city""), 10)",Chrome 139.0.7258.155,,,11-09-2025 19:07:30,11-09-2025 19:07:30,"0,265s",PASSED
+"setText(findTestObject(""Object Repository/Page_STORE/input_City_city""), ""Quito"")",Chrome 139.0.7258.155,,,11-09-2025 19:07:30,11-09-2025 19:07:31,"0,615s",PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_STORE/input_Credit card_card""), 10)",Chrome 139.0.7258.155,,,11-09-2025 19:07:31,11-09-2025 19:07:31,"0,243s",PASSED
+"setText(findTestObject(""Object Repository/Page_STORE/input_Credit card_card""), ""1234567890"")",Chrome 139.0.7258.155,,,11-09-2025 19:07:31,11-09-2025 19:07:32,"0,664s",PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_STORE/input_Month_month""), 10)",Chrome 139.0.7258.155,,,11-09-2025 19:07:32,11-09-2025 19:07:32,"0,252s",PASSED
+"setText(findTestObject(""Object Repository/Page_STORE/input_Month_month""), ""septiembre"")",Chrome 139.0.7258.155,,,11-09-2025 19:07:32,11-09-2025 19:07:33,"0,649s",PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_STORE/input_Year_year""), 10)",Chrome 139.0.7258.155,,,11-09-2025 19:07:33,11-09-2025 19:07:33,"0,259s",PASSED
+"setText(findTestObject(""Object Repository/Page_STORE/input_Year_year""), ""2025"")",Chrome 139.0.7258.155,,,11-09-2025 19:07:33,11-09-2025 19:07:34,"0,661s",PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_STORE/button_Close_btn btn-primary""), 10)",Chrome 139.0.7258.155,,,11-09-2025 19:07:34,11-09-2025 19:07:34,"0,277s",PASSED
+"click(findTestObject(""Object Repository/Page_STORE/button_Close_btn btn-primary""))",Chrome 139.0.7258.155,,,11-09-2025 19:07:34,11-09-2025 19:07:34,"0,340s",PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_STORE/button_Cancel_confirm btn btn-lg btn-primary""), 10)",Chrome 139.0.7258.155,,,11-09-2025 19:07:34,11-09-2025 19:07:35,"0,693s",PASSED
+"click(findTestObject(""Object Repository/Page_STORE/button_Cancel_confirm btn btn-lg btn-primary""))",Chrome 139.0.7258.155,,,11-09-2025 19:07:35,11-09-2025 19:07:35,"0,624s",PASSED
+closeBrowser(),Chrome 139.0.7258.155,,,11-09-2025 19:07:35,11-09-2025 19:07:36,"0,248s",PASSED

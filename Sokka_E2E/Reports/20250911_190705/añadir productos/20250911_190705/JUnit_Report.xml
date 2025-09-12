@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="añadir productos" time="25.38" tests="1" failures="0" errors="0">
+   <testsuite name="añadir productos" tests="1" failures="0" errors="0" time="25.38" skipped="0" timestamp="2025-09-12T00:07:10.811Z" hostname="luis.torres - h-laptop-034" id="Test Suites/añadir productos">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\luis.torres\\Katalon Studio\\Sokka_E2E\\Reports\\20250911_190705\\a\u00F1adir productos\\20250911_190705"/>
+         <property name="logFiles" value="C:\\Users\\luis.torres\\Katalon Studio\\Sokka_E2E\\Reports\\20250911_190705\\a\u00F1adir productos\\20250911_190705\\console0.log, C:\\Users\\luis.torres\\Katalon Studio\\Sokka_E2E\\Reports\\20250911_190705\\a\u00F1adir productos\\20250911_190705\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="luis.torres - h-laptop-034"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.3.1.0"/>
+         <property name="browser" value="Chrome 139.0.7258.155"/>
+         <property name="userFullName" value="Luis Torres"/>
+         <property name="hostAddress" value="192.168.18.7"/>
+         <property name="sessionId" value="4122251162e4fab73672ec193976e0ef"/>
+         <property name="projectName" value="ejemplo"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/prueba_1/añadir productos" time="24.426" classname="Test Cases/prueba_1/añadir productos" status="PASSED">
+         <system-out><![CDATA[11-09-2025T19:07:11 - [TEST_CASE][PASSED] - Test Cases/prueba_1/añadir productos: Test Cases/prueba_1/añadir productos
+
+11-09-2025T19:07:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-09-2025T19:07:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-09-2025T19:07:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-09-2025T19:07:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-09-2025T19:07:15 - [TEST_STEP][PASSED] - navigateToUrl("https://www.demoblaze.com/"): Navigate to 'https://www.demoblaze.com/' successfully
+
+11-09-2025T19:07:16 - [MESSAGE][PASSED] - Navigate to 'https://www.demoblaze.com/' successfully
+
+11-09-2025T19:07:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+11-09-2025T19:07:17 - [MESSAGE][PASSED] - Current window maximized
+
+11-09-2025T19:07:17 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_STORE/a_CATEGORIES_hrefch"), 10): Object 'Object Repository/Page_STORE/a_CATEGORIES_hrefch' is NOT clickable
+
+11-09-2025T19:07:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_STORE/a_CATEGORIES_hrefch' is NOT clickable
+
+11-09-2025T19:07:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_STORE/a_CATEGORIES_hrefch")): Object: 'Object Repository/Page_STORE/a_CATEGORIES_hrefch' is clicked on
+
+11-09-2025T19:07:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/a_CATEGORIES_hrefch' is clicked on
+
+11-09-2025T19:07:19 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_STORE/a_Product description_btn btn-success btn-lg"), 10): Object 'Object Repository/Page_STORE/a_Product description_btn btn-success btn-lg' is NOT clickable
+
+11-09-2025T19:07:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_STORE/a_Product description_btn btn-success btn-lg' is NOT clickable
+
+11-09-2025T19:07:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_STORE/a_Product description_btn btn-success btn-lg")): Object: 'Object Repository/Page_STORE/a_Product description_btn btn-success btn-lg' is clicked on
+
+11-09-2025T19:07:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/a_Product description_btn btn-success btn-lg' is clicked on
+
+11-09-2025T19:07:20 - [TEST_STEP][PASSED] - waitForAlert(10): Alert is present after 10 second(s).
+
+11-09-2025T19:07:20 - [MESSAGE][PASSED] - Alert is present after 10 second(s).
+
+11-09-2025T19:07:20 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+11-09-2025T19:07:20 - [MESSAGE][PASSED] - Alert accepted
+
+11-09-2025T19:07:20 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_STORE/a_Close_nava"), 10): Object 'Object Repository/Page_STORE/a_Close_nava' is NOT clickable
+
+11-09-2025T19:07:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_STORE/a_Close_nava' is NOT clickable
+
+11-09-2025T19:07:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_STORE/a_Close_nava")): Object: 'Object Repository/Page_STORE/a_Close_nava' is clicked on
+
+11-09-2025T19:07:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/a_Close_nava' is clicked on
+
+11-09-2025T19:07:21 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_STORE/a_360_hrefch"), 10): Object 'Object Repository/Page_STORE/a_360_hrefch' is NOT clickable
+
+11-09-2025T19:07:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_STORE/a_360_hrefch' is NOT clickable
+
+11-09-2025T19:07:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_STORE/a_360_hrefch")): Object: 'Object Repository/Page_STORE/a_360_hrefch' is clicked on
+
+11-09-2025T19:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/a_360_hrefch' is clicked on
+
+11-09-2025T19:07:23 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_STORE/a_Product description_btn btn-success btn-lg_1"), 10): Object 'Object Repository/Page_STORE/a_Product description_btn btn-success btn-lg_1' is NOT clickable
+
+11-09-2025T19:07:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_STORE/a_Product description_btn btn-success btn-lg_1' is NOT clickable
+
+11-09-2025T19:07:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_STORE/a_Product description_btn btn-success btn-lg_1")): Object: 'Object Repository/Page_STORE/a_Product description_btn btn-success btn-lg_1' is clicked on
+
+11-09-2025T19:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/a_Product description_btn btn-success btn-lg_1' is clicked on
+
+11-09-2025T19:07:24 - [TEST_STEP][PASSED] - waitForAlert(10): Alert is present after 10 second(s).
+
+11-09-2025T19:07:24 - [MESSAGE][PASSED] - Alert is present after 10 second(s).
+
+11-09-2025T19:07:24 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+11-09-2025T19:07:24 - [MESSAGE][PASSED] - Alert accepted
+
+11-09-2025T19:07:24 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_STORE/a_Close_nava"), 10): Object 'Object Repository/Page_STORE/a_Close_nava' is NOT clickable
+
+11-09-2025T19:07:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_STORE/a_Close_nava' is NOT clickable
+
+11-09-2025T19:07:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_STORE/a_Close_nava")): Object: 'Object Repository/Page_STORE/a_Close_nava' is clicked on
+
+11-09-2025T19:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/a_Close_nava' is clicked on
+
+11-09-2025T19:07:25 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_STORE/a_(current)_cartur"), 10): Object 'Object Repository/Page_STORE/a_(current)_cartur' is NOT clickable
+
+11-09-2025T19:07:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_STORE/a_(current)_cartur' is NOT clickable
+
+11-09-2025T19:07:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_STORE/a_(current)_cartur")): Object: 'Object Repository/Page_STORE/a_(current)_cartur' is clicked on
+
+11-09-2025T19:07:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/a_(current)_cartur' is clicked on
+
+11-09-2025T19:07:26 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_STORE/button_Total_btn btn-success"), 10): Object 'Object Repository/Page_STORE/button_Total_btn btn-success' is NOT clickable
+
+11-09-2025T19:07:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_STORE/button_Total_btn btn-success' is NOT clickable
+
+11-09-2025T19:07:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_STORE/button_Total_btn btn-success")): Object: 'Object Repository/Page_STORE/button_Total_btn btn-success' is clicked on
+
+11-09-2025T19:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/button_Total_btn btn-success' is clicked on
+
+11-09-2025T19:07:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_STORE/input_Name_name"), 10): Object 'Object Repository/Page_STORE/input_Name_name' is visible
+
+11-09-2025T19:07:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_STORE/input_Name_name' is visible
+
+11-09-2025T19:07:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_STORE/input_Name_name"), "Luis Torres"): Text 'Luis Torres' is set on object 'Object Repository/Page_STORE/input_Name_name'
+
+11-09-2025T19:07:29 - [MESSAGE][PASSED] - Text 'Luis Torres' is set on object 'Object Repository/Page_STORE/input_Name_name'
+
+11-09-2025T19:07:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_STORE/input_Country_country"), 10): Object 'Object Repository/Page_STORE/input_Country_country' is visible
+
+11-09-2025T19:07:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_STORE/input_Country_country' is visible
+
+11-09-2025T19:07:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_STORE/input_Country_country"), "Ecuador"): Text 'Ecuador' is set on object 'Object Repository/Page_STORE/input_Country_country'
+
+11-09-2025T19:07:30 - [MESSAGE][PASSED] - Text 'Ecuador' is set on object 'Object Repository/Page_STORE/input_Country_country'
+
+11-09-2025T19:07:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_STORE/input_City_city"), 10): Object 'Object Repository/Page_STORE/input_City_city' is visible
+
+11-09-2025T19:07:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_STORE/input_City_city' is visible
+
+11-09-2025T19:07:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_STORE/input_City_city"), "Quito"): Text 'Quito' is set on object 'Object Repository/Page_STORE/input_City_city'
+
+11-09-2025T19:07:31 - [MESSAGE][PASSED] - Text 'Quito' is set on object 'Object Repository/Page_STORE/input_City_city'
+
+11-09-2025T19:07:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_STORE/input_Credit card_card"), 10): Object 'Object Repository/Page_STORE/input_Credit card_card' is visible
+
+11-09-2025T19:07:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_STORE/input_Credit card_card' is visible
+
+11-09-2025T19:07:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_STORE/input_Credit card_card"), "1234567890"): Text '1234567890' is set on object 'Object Repository/Page_STORE/input_Credit card_card'
+
+11-09-2025T19:07:32 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Page_STORE/input_Credit card_card'
+
+11-09-2025T19:07:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_STORE/input_Month_month"), 10): Object 'Object Repository/Page_STORE/input_Month_month' is visible
+
+11-09-2025T19:07:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_STORE/input_Month_month' is visible
+
+11-09-2025T19:07:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_STORE/input_Month_month"), "septiembre"): Text 'septiembre' is set on object 'Object Repository/Page_STORE/input_Month_month'
+
+11-09-2025T19:07:33 - [MESSAGE][PASSED] - Text 'septiembre' is set on object 'Object Repository/Page_STORE/input_Month_month'
+
+11-09-2025T19:07:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_STORE/input_Year_year"), 10): Object 'Object Repository/Page_STORE/input_Year_year' is visible
+
+11-09-2025T19:07:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_STORE/input_Year_year' is visible
+
+11-09-2025T19:07:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_STORE/input_Year_year"), "2025"): Text '2025' is set on object 'Object Repository/Page_STORE/input_Year_year'
+
+11-09-2025T19:07:34 - [MESSAGE][PASSED] - Text '2025' is set on object 'Object Repository/Page_STORE/input_Year_year'
+
+11-09-2025T19:07:34 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_STORE/button_Close_btn btn-primary"), 10): Object 'Object Repository/Page_STORE/button_Close_btn btn-primary' is NOT clickable
+
+11-09-2025T19:07:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_STORE/button_Close_btn btn-primary' is NOT clickable
+
+11-09-2025T19:07:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_STORE/button_Close_btn btn-primary")): Object: 'Object Repository/Page_STORE/button_Close_btn btn-primary' is clicked on
+
+11-09-2025T19:07:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/button_Close_btn btn-primary' is clicked on
+
+11-09-2025T19:07:34 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_STORE/button_Cancel_confirm btn btn-lg btn-primary"), 10): Object 'Object Repository/Page_STORE/button_Cancel_confirm btn btn-lg btn-primary' is NOT clickable
+
+11-09-2025T19:07:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_STORE/button_Cancel_confirm btn btn-lg btn-primary' is NOT clickable
+
+11-09-2025T19:07:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_STORE/button_Cancel_confirm btn btn-lg btn-primary")): Object: 'Object Repository/Page_STORE/button_Cancel_confirm btn btn-lg btn-primary' is clicked on
+
+11-09-2025T19:07:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_STORE/button_Cancel_confirm btn btn-lg btn-primary' is clicked on
+
+11-09-2025T19:07:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-09-2025T19:07:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-09-2025T19:07:10 - [TEST_SUITE][PASSED] - añadir productos: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
