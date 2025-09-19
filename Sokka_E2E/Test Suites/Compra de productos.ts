@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Compra de productos</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>46363d4d-b5b5-434d-85a5-e6516c40d458</testSuiteGuid>
+   <testCaseLink>
+      <guid>33eeeb4a-8a54-4f49-bf17-902cc91c1b86</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Navegacion/Abrir página principal</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>46997ade-7db1-4f1b-9330-7d72f024e436</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Productos/Agregar primer producto al carrito</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b44295fc-a22b-4887-8aea-d2d85621f709</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Productos/Agregar segundo producto al carrito</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>21d0eeb9-118b-4e0e-8e8b-7ec60d97fef9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Navegacion/Ir al carrito y empezar compra</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b4800fd9-50f0-4f7d-9a25-7e71d68ecc49</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Compra/Llenar formulario de compra</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>05c6e6fc-ad59-407a-b0a8-ea7ab9254837</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/datos_formulario</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>05c6e6fc-ad59-407a-b0a8-ea7ab9254837</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Nombre</value>
+         <variableId>5e00d7c8-8289-4c41-b1f6-65f31ed747f1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>05c6e6fc-ad59-407a-b0a8-ea7ab9254837</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Pais</value>
+         <variableId>e64896b0-197a-4fdf-b7cf-a6eeec81074e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>05c6e6fc-ad59-407a-b0a8-ea7ab9254837</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Ciudad</value>
+         <variableId>d8db9360-491c-4454-957c-1ed7c7e49233</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>05c6e6fc-ad59-407a-b0a8-ea7ab9254837</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Tarjeta</value>
+         <variableId>d56e7618-f95a-4648-8861-cb4130b5c7fc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>05c6e6fc-ad59-407a-b0a8-ea7ab9254837</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Mes</value>
+         <variableId>54959263-461e-4437-b8c9-268d5a062a9e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>05c6e6fc-ad59-407a-b0a8-ea7ab9254837</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Anio</value>
+         <variableId>3cb1b986-c5cd-4656-ae08-c25586579726</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ddd2258c-ee0a-480d-8fab-ca919428e7fe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Compra/Confirmar compra</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

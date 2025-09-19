@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>añadir productos</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>55ddc5e9-d5c9-406c-bb84-37ca57dbd458</testCaseGuid>
-</TestCaseEntity>

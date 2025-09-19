@@ -1,0 +1,89 @@
+2025-09-18 23:20:05.455 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Compra de productos
+2025-09-18 23:20:05.589 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Luis Torres
+2025-09-18 23:20:05.592 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = ejemplo
+2025-09-18 23:20:05.593 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = luis.torres - h-laptop-034
+2025-09-18 23:20:05.594 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-09-18 23:20:05.594 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.108
+2025-09-18 23:20:05.595 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.1.0
+2025-09-18 23:20:06.281 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-09-18 23:20:06.281 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Navegacion/Abrir página principal
+2025-09-18 23:20:06.811 DEBUG testcase.Abrir página principal          - 1: wa = new utils.WebActions()
+2025-09-18 23:20:06.827 DEBUG testcase.Abrir página principal          - 2: openBrowser("")
+2025-09-18 23:20:07.154 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-09-18 23:20:07.228 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+sep. 18, 2025 11:20:08 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+2025-09-18 23:20:09.405 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = e67c401ce5e1d145e4acb635b6838855
+2025-09-18 23:20:09.407 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 139.0.7258.155
+2025-09-18 23:20:09.409 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-09-18 23:20:09.410 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-09-18 23:20:09.422 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-09-18 23:20:09.498 DEBUG testcase.Abrir página principal          - 3: navigateToUrl("https://www.demoblaze.com/")
+2025-09-18 23:20:10.653 DEBUG testcase.Abrir página principal          - 4: maximizeWindow()
+2025-09-18 23:20:10.795 DEBUG testcase.Abrir página principal          - 5: wa.safeClick(findTestObject("Object Repository/Page_STORE/a_CATEGORIES_hrefch"))
+2025-09-18 23:20:12.887 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Click exitoso en: Object Repository/Page_STORE/a_CATEGORIES_hrefch
+2025-09-18 23:20:12.889 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Navegacion/Abrir página principal
+2025-09-18 23:20:12.898 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-09-18 23:20:12.898 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Productos/Agregar primer producto al carrito
+2025-09-18 23:20:12.982 DEBUG t.Agregar primer producto al carrito     - 1: wa = new utils.WebActions()
+2025-09-18 23:20:12.985 DEBUG t.Agregar primer producto al carrito     - 2: wa.safeClick(findTestObject("Object Repository/Page_STORE/a_Product description_btn btn-success btn-lg"))
+2025-09-18 23:20:14.213 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Click exitoso en: Object Repository/Page_STORE/a_Product description_btn btn-success btn-lg
+2025-09-18 23:20:14.214 DEBUG t.Agregar primer producto al carrito     - 3: wa.handleAlert()
+2025-09-18 23:20:14.810 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Alerta aceptada
+2025-09-18 23:20:14.814 DEBUG t.Agregar primer producto al carrito     - 4: wa.safeClick(findTestObject("Object Repository/Page_STORE/a_Close_nava"))
+2025-09-18 23:20:15.933 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Click exitoso en: Object Repository/Page_STORE/a_Close_nava
+2025-09-18 23:20:15.935 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Productos/Agregar primer producto al carrito
+2025-09-18 23:20:15.944 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-09-18 23:20:15.944 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Productos/Agregar segundo producto al carrito
+2025-09-18 23:20:16.029 DEBUG t.Agregar segundo producto al carrito    - 1: wa = new utils.WebActions()
+2025-09-18 23:20:16.034 DEBUG t.Agregar segundo producto al carrito    - 2: wa.safeClick(findTestObject("Object Repository/Page_STORE/a_360_hrefch"))
+2025-09-18 23:20:17.484 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Click exitoso en: Object Repository/Page_STORE/a_360_hrefch
+2025-09-18 23:20:17.488 DEBUG t.Agregar segundo producto al carrito    - 3: wa.safeClick(findTestObject("Object Repository/Page_STORE/a_Product description_btn btn-success btn-lg_1"))
+2025-09-18 23:20:18.768 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Click exitoso en: Object Repository/Page_STORE/a_Product description_btn btn-success btn-lg_1
+2025-09-18 23:20:18.769 DEBUG t.Agregar segundo producto al carrito    - 4: wa.handleAlert()
+2025-09-18 23:20:19.303 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Alerta aceptada
+2025-09-18 23:20:19.308 DEBUG t.Agregar segundo producto al carrito    - 5: wa.safeClick(findTestObject("Object Repository/Page_STORE/a_Close_nava"))
+2025-09-18 23:20:20.403 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Click exitoso en: Object Repository/Page_STORE/a_Close_nava
+2025-09-18 23:20:20.409 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Productos/Agregar segundo producto al carrito
+2025-09-18 23:20:20.415 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-09-18 23:20:20.416 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Navegacion/Ir al carrito y empezar compra
+2025-09-18 23:20:20.495 DEBUG t.Ir al carrito y empezar compra         - 1: wa = new utils.WebActions()
+2025-09-18 23:20:20.500 DEBUG t.Ir al carrito y empezar compra         - 2: wa.safeClick(findTestObject("Object Repository/Page_STORE/a_(current)_cartur"))
+2025-09-18 23:20:22.132 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Click exitoso en: Object Repository/Page_STORE/a_(current)_cartur
+2025-09-18 23:20:22.134 DEBUG t.Ir al carrito y empezar compra         - 3: wa.safeClick(findTestObject("Object Repository/Page_STORE/button_Total_btn btn-success"))
+2025-09-18 23:20:23.745 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Click exitoso en: Object Repository/Page_STORE/button_Total_btn btn-success
+2025-09-18 23:20:23.750 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Navegacion/Ir al carrito y empezar compra
+2025-09-18 23:20:23.969 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-09-18 23:20:23.970 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Compra/Llenar formulario de compra
+2025-09-18 23:20:24.000 INFO  c.k.katalon.core.main.TestCaseExecutor   - Nombre = sofka
+2025-09-18 23:20:24.001 INFO  c.k.katalon.core.main.TestCaseExecutor   - Pais = Colombia
+2025-09-18 23:20:24.002 INFO  c.k.katalon.core.main.TestCaseExecutor   - Ciudad = Bogota
+2025-09-18 23:20:24.002 INFO  c.k.katalon.core.main.TestCaseExecutor   - Tarjeta = 159753852
+2025-09-18 23:20:24.002 INFO  c.k.katalon.core.main.TestCaseExecutor   - Mes = septiembre
+2025-09-18 23:20:24.003 INFO  c.k.katalon.core.main.TestCaseExecutor   - Anio = 2024
+2025-09-18 23:20:24.278 DEBUG testcase.Llenar formulario de compra     - 1: wa = new utils.WebActions()
+2025-09-18 23:20:24.281 DEBUG testcase.Llenar formulario de compra     - 2: wa.safeSetText(findTestObject("Object Repository/Page_STORE/input_Name_name"), Nombre)
+2025-09-18 23:20:25.526 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Texto ingresado en: Object Repository/Page_STORE/input_Name_name
+2025-09-18 23:20:25.529 DEBUG testcase.Llenar formulario de compra     - 3: wa.safeSetText(findTestObject("Object Repository/Page_STORE/input_Country_country"), Pais)
+2025-09-18 23:20:26.681 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Texto ingresado en: Object Repository/Page_STORE/input_Country_country
+2025-09-18 23:20:26.683 DEBUG testcase.Llenar formulario de compra     - 4: wa.safeSetText(findTestObject("Object Repository/Page_STORE/input_City_city"), Ciudad)
+2025-09-18 23:20:27.939 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Texto ingresado en: Object Repository/Page_STORE/input_City_city
+2025-09-18 23:20:27.941 DEBUG testcase.Llenar formulario de compra     - 5: wa.safeSetText(findTestObject("Object Repository/Page_STORE/input_Credit card_card"), Tarjeta)
+2025-09-18 23:20:29.130 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Texto ingresado en: Object Repository/Page_STORE/input_Credit card_card
+2025-09-18 23:20:29.131 DEBUG testcase.Llenar formulario de compra     - 6: wa.safeSetText(findTestObject("Object Repository/Page_STORE/input_Month_month"), Mes)
+2025-09-18 23:20:30.306 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Texto ingresado en: Object Repository/Page_STORE/input_Month_month
+2025-09-18 23:20:30.307 DEBUG testcase.Llenar formulario de compra     - 7: wa.safeSetText(findTestObject("Object Repository/Page_STORE/input_Year_year"), Anio)
+2025-09-18 23:20:31.440 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Texto ingresado en: Object Repository/Page_STORE/input_Year_year
+2025-09-18 23:20:31.443 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Compra/Llenar formulario de compra
+2025-09-18 23:20:31.448 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-09-18 23:20:31.448 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Compra/Confirmar compra
+2025-09-18 23:20:31.557 DEBUG testcase.Confirmar compra                - 1: wa = new utils.WebActions()
+2025-09-18 23:20:31.560 DEBUG testcase.Confirmar compra                - 2: wa.safeClick(findTestObject("Object Repository/Page_STORE/button_Close_btn btn-primary"))
+2025-09-18 23:20:32.454 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Click exitoso en: Object Repository/Page_STORE/button_Close_btn btn-primary
+2025-09-18 23:20:32.455 DEBUG testcase.Confirmar compra                - 3: wa.safeClick(findTestObject("Object Repository/Page_STORE/button_Cancel_confirm btn btn-lg btn-primary"))
+2025-09-18 23:20:33.960 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Click exitoso en: Object Repository/Page_STORE/button_Cancel_confirm btn btn-lg btn-primary
+2025-09-18 23:20:33.962 DEBUG testcase.Confirmar compra                - 4: closeBrowser()
+2025-09-18 23:20:34.237 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Compra/Confirmar compra
+2025-09-18 23:20:34.284 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-09-18 23:20:34.284 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Compra de productos
+2025-09-18 23:20:34.284 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

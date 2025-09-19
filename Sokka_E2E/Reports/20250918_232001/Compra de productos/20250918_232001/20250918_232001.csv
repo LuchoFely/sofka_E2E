@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Compra de productos,Chrome 139.0.7258.155,,,18-09-2025 23:20:05,18-09-2025 23:20:34,"28,721s",PASSED
+,,,,,,,
+Test Cases/Navegacion/Abrir página principal,Chrome 139.0.7258.155,,,18-09-2025 23:20:06,18-09-2025 23:20:12,"6,608s",PASSED
+wa = new utils.WebActions(),Chrome 139.0.7258.155,,,18-09-2025 23:20:06,18-09-2025 23:20:06,"0,017s",PASSED
+"openBrowser("""")",Chrome 139.0.7258.155,,,18-09-2025 23:20:06,18-09-2025 23:20:09,"2,670s",PASSED
+"navigateToUrl(""https://www.demoblaze.com/"")",Chrome 139.0.7258.155,,,18-09-2025 23:20:09,18-09-2025 23:20:10,"1,156s",PASSED
+maximizeWindow(),Chrome 139.0.7258.155,,,18-09-2025 23:20:10,18-09-2025 23:20:10,"0,142s",PASSED
+"wa.safeClick(findTestObject(""Object Repository/Page_STORE/a_CATEGORIES_hrefch""))",Chrome 139.0.7258.155,,,18-09-2025 23:20:10,18-09-2025 23:20:12,"2,087s",PASSED
+,,,,,,,
+Test Cases/Productos/Agregar primer producto al carrito,Chrome 139.0.7258.155,,,18-09-2025 23:20:12,18-09-2025 23:20:15,"3,037s",PASSED
+wa = new utils.WebActions(),Chrome 139.0.7258.155,,,18-09-2025 23:20:12,18-09-2025 23:20:12,"0,003s",PASSED
+"wa.safeClick(findTestObject(""Object Repository/Page_STORE/a_Product description_btn btn-success btn-lg""))",Chrome 139.0.7258.155,,,18-09-2025 23:20:12,18-09-2025 23:20:14,"1,229s",PASSED
+wa.handleAlert(),Chrome 139.0.7258.155,,,18-09-2025 23:20:14,18-09-2025 23:20:14,"0,599s",PASSED
+"wa.safeClick(findTestObject(""Object Repository/Page_STORE/a_Close_nava""))",Chrome 139.0.7258.155,,,18-09-2025 23:20:14,18-09-2025 23:20:15,"1,119s",PASSED
+,,,,,,,
+Test Cases/Productos/Agregar segundo producto al carrito,Chrome 139.0.7258.155,,,18-09-2025 23:20:15,18-09-2025 23:20:20,"4,465s",PASSED
+wa = new utils.WebActions(),Chrome 139.0.7258.155,,,18-09-2025 23:20:16,18-09-2025 23:20:16,"0,004s",PASSED
+"wa.safeClick(findTestObject(""Object Repository/Page_STORE/a_360_hrefch""))",Chrome 139.0.7258.155,,,18-09-2025 23:20:16,18-09-2025 23:20:17,"1,455s",PASSED
+"wa.safeClick(findTestObject(""Object Repository/Page_STORE/a_Product description_btn btn-success btn-lg_1""))",Chrome 139.0.7258.155,,,18-09-2025 23:20:17,18-09-2025 23:20:18,"1,280s",PASSED
+wa.handleAlert(),Chrome 139.0.7258.155,,,18-09-2025 23:20:18,18-09-2025 23:20:19,"0,538s",PASSED
+"wa.safeClick(findTestObject(""Object Repository/Page_STORE/a_Close_nava""))",Chrome 139.0.7258.155,,,18-09-2025 23:20:19,18-09-2025 23:20:20,"1,095s",PASSED
+,,,,,,,
+Test Cases/Navegacion/Ir al carrito y empezar compra,Chrome 139.0.7258.155,,,18-09-2025 23:20:20,18-09-2025 23:20:23,"3,334s",PASSED
+wa = new utils.WebActions(),Chrome 139.0.7258.155,,,18-09-2025 23:20:20,18-09-2025 23:20:20,"0,005s",PASSED
+"wa.safeClick(findTestObject(""Object Repository/Page_STORE/a_(current)_cartur""))",Chrome 139.0.7258.155,,,18-09-2025 23:20:20,18-09-2025 23:20:22,"1,633s",PASSED
+"wa.safeClick(findTestObject(""Object Repository/Page_STORE/button_Total_btn btn-success""))",Chrome 139.0.7258.155,,,18-09-2025 23:20:22,18-09-2025 23:20:23,"1,612s",PASSED
+,,,,,,,
+Test Cases/Compra/Llenar formulario de compra,Chrome 139.0.7258.155,,,18-09-2025 23:20:23,18-09-2025 23:20:31,"7,473s",PASSED
+"DATA BINDING - {""Nombre"":""sofka"",""Tarjeta"":""159753852"",""Mes"":""septiembre"",""Ciudad"":""Bogota"",""Anio"":""2024"",""Pais"":""Colombia""}",,,,,,,
+wa = new utils.WebActions(),Chrome 139.0.7258.155,,,18-09-2025 23:20:24,18-09-2025 23:20:24,"0,003s",PASSED
+"wa.safeSetText(findTestObject(""Object Repository/Page_STORE/input_Name_name""), Nombre)",Chrome 139.0.7258.155,,,18-09-2025 23:20:24,18-09-2025 23:20:25,"1,247s",PASSED
+"wa.safeSetText(findTestObject(""Object Repository/Page_STORE/input_Country_country""), Pais)",Chrome 139.0.7258.155,,,18-09-2025 23:20:25,18-09-2025 23:20:26,"1,153s",PASSED
+"wa.safeSetText(findTestObject(""Object Repository/Page_STORE/input_City_city""), Ciudad)",Chrome 139.0.7258.155,,,18-09-2025 23:20:26,18-09-2025 23:20:27,"1,258s",PASSED
+"wa.safeSetText(findTestObject(""Object Repository/Page_STORE/input_Credit card_card""), Tarjeta)",Chrome 139.0.7258.155,,,18-09-2025 23:20:27,18-09-2025 23:20:29,"1,190s",PASSED
+"wa.safeSetText(findTestObject(""Object Repository/Page_STORE/input_Month_month""), Mes)",Chrome 139.0.7258.155,,,18-09-2025 23:20:29,18-09-2025 23:20:30,"1,175s",PASSED
+"wa.safeSetText(findTestObject(""Object Repository/Page_STORE/input_Year_year""), Anio)",Chrome 139.0.7258.155,,,18-09-2025 23:20:30,18-09-2025 23:20:31,"1,133s",PASSED
+,,,,,,,
+Test Cases/Compra/Confirmar compra,Chrome 139.0.7258.155,,,18-09-2025 23:20:31,18-09-2025 23:20:34,"2,789s",PASSED
+wa = new utils.WebActions(),Chrome 139.0.7258.155,,,18-09-2025 23:20:31,18-09-2025 23:20:31,"0,004s",PASSED
+"wa.safeClick(findTestObject(""Object Repository/Page_STORE/button_Close_btn btn-primary""))",Chrome 139.0.7258.155,,,18-09-2025 23:20:31,18-09-2025 23:20:32,"0,894s",PASSED
+"wa.safeClick(findTestObject(""Object Repository/Page_STORE/button_Cancel_confirm btn btn-lg btn-primary""))",Chrome 139.0.7258.155,,,18-09-2025 23:20:32,18-09-2025 23:20:33,"1,504s",PASSED
+closeBrowser(),Chrome 139.0.7258.155,,,18-09-2025 23:20:33,18-09-2025 23:20:34,"0,273s",PASSED

@@ -1,0 +1,6 @@
+{"testCaseName":"Test Cases/Navegacion/Abrir página principal","testCaseId":"Test Cases/Navegacion/Abrir página principal","iterationVariableName":""}
+{"testCaseName":"Test Cases/Productos/Agregar primer producto al carrito","testCaseId":"Test Cases/Productos/Agregar primer producto al carrito","iterationVariableName":""}
+{"testCaseName":"Test Cases/Productos/Agregar segundo producto al carrito","testCaseId":"Test Cases/Productos/Agregar segundo producto al carrito","iterationVariableName":""}
+{"testCaseName":"Test Cases/Navegacion/Ir al carrito y empezar compra","testCaseId":"Test Cases/Navegacion/Ir al carrito y empezar compra","iterationVariableName":""}
+{"testCaseName":"Test Cases/Compra/Llenar formulario de compra","testCaseId":"Test Cases/Compra/Llenar formulario de compra","iterationVariableName":"","bindedValues":{"Nombre":"\u0027sofka\u0027","Tarjeta":"\u0027159753852\u0027","Mes":"\u0027septiembre\u0027","Ciudad":"\u0027Bogota\u0027","Anio":"\u00272024\u0027","Pais":"\u0027Colombia\u0027"}}
+{"testCaseName":"Test Cases/Compra/Confirmar compra","testCaseId":"Test Cases/Compra/Confirmar compra","iterationVariableName":""}

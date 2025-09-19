@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Agregar primer producto al carrito</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a804abd1-d6b2-4272-a9e9-8053d765ca8c</testCaseGuid>
+</TestCaseEntity>

@@ -9,3 +9,19 @@ Detectar errores antes de que lleguen a producción
 Reducir el trabajo manual de QA
 Generar scripts reutilizables
 Integrarse con CI/CD
+
+
+------------------------ Mejora de script 2025-09-18 -------------------------------------
+
+1. Se realiza la Modularización del código que Evita duplicación y mejora la reutilización.
+
+Las acciones que se realizaron son
+* Test Cases independientes para cada acción (login, agregar producto, llenar formulario).
+* Agrupar los Test Cases en Test Suites según el flujo (compra, navegación, validaciones).
+* Crea Custom Keywords para funciones comunes .
+
+
+2. Se implementó Data-Driven Testing llamando desde un archivo excel los parámetros del formulario de compra para que se ejecute con múltiples datos.
+
+3. Se adjunta un reporte en PDF de la última ejecución de la prueba para su validación
+
